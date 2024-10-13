@@ -1,0 +1,32 @@
+site_name: Learning - monorepo
+#nav:
+#  - Project info: 'project/README.md'
+#  - Learning :
+#    - AWS :
+#      - Frontend: 'app/frontend/README.md'
+#      - Backend: 'app/backend/README.md'
+#  - App:
+#      - Frontend: 'app/frontend/README.md'
+#      - Backend: 'app/backend/README.md'
+#  - Infra:
+#      - AWS: 'infra/aws/README.md'
+#      - CI/CD: 'infra/cicd/README.md'
+#      - K8s: 'infra/k8s/README.md'
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - search
+  - mkdocs-pdf
