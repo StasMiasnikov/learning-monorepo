@@ -29,4 +29,3 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
   - search
-  - mkdocs-pdf
