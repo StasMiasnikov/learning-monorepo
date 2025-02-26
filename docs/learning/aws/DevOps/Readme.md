@@ -1,6 +1,13 @@
-## AWS Certified DevOps Engineer - Professional (DOP-C02) 
-
 ## AWS Certified DevOps Engineer -Professional (DOP-C02) Exam Guide
+
+
+- Domain 1: SDLC Automation (22% of scored content)
+- Domain 2: Configuration Management and IaC (17% of scored content)
+- Domain 3: Resilient Cloud Solutions (15% of scored content)
+- Domain 4: Monitoring and Logging (15% of scored content)
+- Domain 5: Incident and Event Response (14% of scored content)
+- Domain 6: Security and Compliance (17% of scored content)
+
 
 # Introduction
 
