@@ -18,6 +18,6 @@ flowchart TD
 
 ### Current Target
 
-AWS Solutions Architect associate
+AWS Certified DevOps Engineer -Professional (DOP-C02)
 
 
