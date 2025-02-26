@@ -1,7 +1,7 @@
 
 **Domain 4: Monitoring and Logging**
 
-Task Statement 4.1: Configure the collection, aggregation, and storage of logs and
+### Task Statement 4.1: Configure the collection, aggregation, and storage of logs and
 metrics.
 
 ```
@@ -34,7 +34,7 @@ Skills in:
   Insights
 - Configuring encryption of log data (for example, AWS KMS)
 
-Task Statement 4.2: Audit, monitor, and analyze logs and metrics to detect issues.
+### Task Statement 4.2: Audit, monitor, and analyze logs and metrics to detect issues.
 
 ```
 Knowledge of:
@@ -61,7 +61,7 @@ Skills in:
 - Analyzing logs with AWS services (for example, Amazon Athena,
   CloudWatch Logs Insights)
 
-Task Statement 4.3: Automate monitoring and event management of complex
+### Task Statement 4.3: Automate monitoring and event management of complex
 environments.
 
 ```

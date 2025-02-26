@@ -20,7 +20,7 @@
 - AWS Elastic Block Store [Amazon EBS]
 - AWS Identity and Access Management [IAM]
 
-Task Statement 1.1: Implement CI/CD pipelines.
+### Task Statement 1.1: Implement CI/CD pipelines.
 
 ```
 Knowledge of:
@@ -41,7 +41,7 @@ Skills in:
 - Determining appropriate deployment strategies (for example, AWS
   CodeDeploy)
 
-Task Statement 1.2: Integrate automated testing into CI/CD pipelines.
+### Task Statement 1.2: Integrate automated testing into CI/CD pipelines.
 
 ```
 Knowledge of:
@@ -64,7 +64,7 @@ Skills in:
 - Automating unit tests and code coverage
 - Invoking AWS services in a pipeline for testing
 
-Task Statement 1.3: Build and manage artifacts.
+### Task Statement 1.3: Build and manage artifacts.
 
 ```
 Knowledge of:
@@ -85,7 +85,7 @@ Skills in:
 - Automating Amazon EC2 instance and container image build processes (for
   example, EC2 Image Builder)
 
-Task Statement 1. 4 : Implement deployment strategies for instance, container, and
+### Task Statement 1. 4 : Implement deployment strategies for instance, container, and
 serverless environments.
 
 ```

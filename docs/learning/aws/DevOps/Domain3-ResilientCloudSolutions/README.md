@@ -1,7 +1,7 @@
 
 **Domain 3: Resilient Cloud Solutions**
 
-Task Statement 3.1: Implement highly available solutions to meet resilience and
+### Task Statement 3.1: Implement highly available solutions to meet resilience and
 business requirements.
 
 ```
@@ -23,7 +23,7 @@ Knowledge of:
 - Configuring applications and related services to support multiple
   Availability Zones and Regions while minimizing downtime
 
-Task Statement 3.2: Implement solutions that are scalable to meet business
+### Task Statement 3.2: Implement solutions that are scalable to meet business
 requirements.
 
 ```
@@ -48,7 +48,7 @@ Skills in:
 - Configuring serverless applications (for example, Amazon API Gateway,
   Lambda, AWS Fargate)
 
-Task Statement 3.3: Implement automated recovery processes to meet RTO and RPO
+### Task Statement 3.3: Implement automated recovery processes to meet RTO and RPO
 requirements.
 
 ```

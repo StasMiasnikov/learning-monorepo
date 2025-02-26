@@ -1,7 +1,7 @@
 
 **Domain 6 : Security and Compliance**
 
-Task Statement 6 .1: Implement techniques for identity and access management at
+### Task Statement 6 .1: Implement techniques for identity and access management at
 scale.
 
 ```
@@ -28,7 +28,7 @@ Skills in:
   (for example, enabling multi-factor authentication [MFA], AWS Security
   Token Service [AWS STS], IAM profiles)
 
-Task Statement 6 .2: Apply automation for security controls and data protection.
+### Task Statement 6 .2: Apply automation for security controls and data protection.
 
 ```
 Knowledge of:
@@ -56,7 +56,7 @@ Skills in:
 - Encrypting data in transit and data at rest (for example, AWS KMS, AWS
   CloudHSM, ACM)
 
-Task Statement 6 .3: Implement security monitoring and auditing solutions.
+### Task Statement 6 .3: Implement security monitoring and auditing solutions.
 
 ```
 Knowledge of:

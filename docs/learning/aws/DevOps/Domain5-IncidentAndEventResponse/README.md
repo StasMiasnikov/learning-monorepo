@@ -1,7 +1,7 @@
 
 **Domain 5: Incident and Event Response**
 
-Task Statement 5.1: Manage event sources to process, notify, and take action in
+### Task Statement 5.1: Manage event sources to process, notify, and take action in
 response to events.
 
 ```
@@ -21,7 +21,7 @@ Skills in:
 - Building event processing workflows (for example, Amazon Simple Queue
   Service [Amazon SQS], Kinesis, Amazon SNS, Lambda, Step Functions)
 
-Task Statement 5.2: Implement configuration changes in response to events.
+### Task Statement 5.2: Implement configuration changes in response to events.
 
 ```
 Knowledge of:
@@ -35,7 +35,7 @@ Knowledge of:
 - Modifying infrastructure configurations in response to events
 - Remediating a non-desired system state
 
-Task Statement 5.3: Troubleshoot system and application failures.
+### Task Statement 5.3: Troubleshoot system and application failures.
 
 ```
 Knowledge of:

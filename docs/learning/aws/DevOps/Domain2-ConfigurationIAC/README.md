@@ -1,7 +1,7 @@
 
 **Domain 2 : Configuration Management and IaC**
 
-Task Statement 2.1: Define cloud infrastructure and reusable components to
+### Task Statement 2.1: Define cloud infrastructure and reusable components to
 provision and manage systems throughout their lifecycle.
 
 ```
@@ -27,7 +27,7 @@ Skills in:
   standards into reusable IaC templates (for example, AWS Service Catalog,
   CloudFormation modules, AWS CDK)
 
-Task Statement 2.2: Deploy automation to create, onboard, and secure AWS accounts
+### Task Statement 2.2: Deploy automation to create, onboard, and secure AWS accounts
 in a multi-account or multi-Region environment.
 
 ```
@@ -49,7 +49,7 @@ Skills in:
   (AWS Config, AWS Control Tower, AWS Security Hub, Amazon Detective,
   Amazon GuardDuty, AWS Service Catalog, SCPs)
 
-Task Statement 2.3: Design and build automated solutions for complex tasks and
+### Task Statement 2.3: Design and build automated solutions for complex tasks and
 large-scale environments.
 
 ```

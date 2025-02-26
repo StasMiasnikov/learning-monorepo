@@ -110,7 +110,7 @@ interpret section-level feedback.
 
 This exam guide includes weightings, content domains, and task statements for the
 exam. This guide does not provide a comprehensive list of the content on the exam.
-However, additional context for each task statement is available to help you prepare
+However, additional context for each ### Task Statement is available to help you prepare
 for the exam.
 
 The exam has the following content domains and weightings:
@@ -124,7 +124,7 @@ The exam has the following content domains and weightings:
 
 **Domain 1: SDLC Automation**
 
-Task Statement 1.1: Implement CI/CD pipelines.
+### Task Statement 1.1: Implement CI/CD pipelines.
 
 ```
 Knowledge of:
@@ -145,7 +145,7 @@ Skills in:
 - Determining appropriate deployment strategies (for example, AWS
   CodeDeploy)
 
-Task Statement 1.2: Integrate automated testing into CI/CD pipelines.
+### Task Statement 1.2: Integrate automated testing into CI/CD pipelines.
 
 ```
 Knowledge of:
@@ -168,7 +168,7 @@ Skills in:
 - Automating unit tests and code coverage
 - Invoking AWS services in a pipeline for testing
 
-Task Statement 1.3: Build and manage artifacts.
+### Task Statement 1.3: Build and manage artifacts.
 
 ```
 Knowledge of:
@@ -189,7 +189,7 @@ Skills in:
 - Automating Amazon EC2 instance and container image build processes (for
   example, EC2 Image Builder)
 
-Task Statement 1. 4 : Implement deployment strategies for instance, container, and
+### Task Statement 1. 4 : Implement deployment strategies for instance, container, and
 serverless environments.
 
 ```
@@ -218,7 +218,7 @@ Skills in:
 
 **Domain 2 : Configuration Management and IaC**
 
-Task Statement 2.1: Define cloud infrastructure and reusable components to
+### Task Statement 2.1: Define cloud infrastructure and reusable components to
 provision and manage systems throughout their lifecycle.
 
 ```
@@ -244,7 +244,7 @@ Skills in:
   standards into reusable IaC templates (for example, AWS Service Catalog,
   CloudFormation modules, AWS CDK)
 
-Task Statement 2.2: Deploy automation to create, onboard, and secure AWS accounts
+### Task Statement 2.2: Deploy automation to create, onboard, and secure AWS accounts
 in a multi-account or multi-Region environment.
 
 ```
@@ -266,7 +266,7 @@ Skills in:
   (AWS Config, AWS Control Tower, AWS Security Hub, Amazon Detective,
   Amazon GuardDuty, AWS Service Catalog, SCPs)
 
-Task Statement 2.3: Design and build automated solutions for complex tasks and
+### Task Statement 2.3: Design and build automated solutions for complex tasks and
 large-scale environments.
 
 ```
@@ -291,7 +291,7 @@ Skills in:
 
 **Domain 3: Resilient Cloud Solutions**
 
-Task Statement 3.1: Implement highly available solutions to meet resilience and
+### Task Statement 3.1: Implement highly available solutions to meet resilience and
 business requirements.
 
 ```
@@ -313,7 +313,7 @@ Knowledge of:
 - Configuring applications and related services to support multiple
   Availability Zones and Regions while minimizing downtime
 
-Task Statement 3.2: Implement solutions that are scalable to meet business
+### Task Statement 3.2: Implement solutions that are scalable to meet business
 requirements.
 
 ```
@@ -338,7 +338,7 @@ Skills in:
 - Configuring serverless applications (for example, Amazon API Gateway,
   Lambda, AWS Fargate)
 
-Task Statement 3.3: Implement automated recovery processes to meet RTO and RPO
+### Task Statement 3.3: Implement automated recovery processes to meet RTO and RPO
 requirements.
 
 ```
@@ -362,7 +362,7 @@ Skills in:
 
 **Domain 4: Monitoring and Logging**
 
-Task Statement 4.1: Configure the collection, aggregation, and storage of logs and
+### Task Statement 4.1: Configure the collection, aggregation, and storage of logs and
 metrics.
 
 ```
@@ -395,7 +395,7 @@ Skills in:
   Insights
 - Configuring encryption of log data (for example, AWS KMS)
 
-Task Statement 4.2: Audit, monitor, and analyze logs and metrics to detect issues.
+### Task Statement 4.2: Audit, monitor, and analyze logs and metrics to detect issues.
 
 ```
 Knowledge of:
@@ -422,7 +422,7 @@ Skills in:
 - Analyzing logs with AWS services (for example, Amazon Athena,
   CloudWatch Logs Insights)
 
-Task Statement 4.3: Automate monitoring and event management of complex
+### Task Statement 4.3: Automate monitoring and event management of complex
 environments.
 
 ```
@@ -460,7 +460,7 @@ Skills in:
 
 **Domain 5: Incident and Event Response**
 
-Task Statement 5.1: Manage event sources to process, notify, and take action in
+### Task Statement 5.1: Manage event sources to process, notify, and take action in
 response to events.
 
 ```
@@ -480,7 +480,7 @@ Skills in:
 - Building event processing workflows (for example, Amazon Simple Queue
   Service [Amazon SQS], Kinesis, Amazon SNS, Lambda, Step Functions)
 
-Task Statement 5.2: Implement configuration changes in response to events.
+### Task Statement 5.2: Implement configuration changes in response to events.
 
 ```
 Knowledge of:
@@ -494,7 +494,7 @@ Knowledge of:
 - Modifying infrastructure configurations in response to events
 - Remediating a non-desired system state
 
-Task Statement 5.3: Troubleshoot system and application failures.
+### Task Statement 5.3: Troubleshoot system and application failures.
 
 ```
 Knowledge of:
@@ -516,7 +516,7 @@ Skills in:
 
 **Domain 6 : Security and Compliance**
 
-Task Statement 6 .1: Implement techniques for identity and access management at
+### Task Statement 6 .1: Implement techniques for identity and access management at
 scale.
 
 ```
@@ -543,7 +543,7 @@ Skills in:
   (for example, enabling multi-factor authentication [MFA], AWS Security
   Token Service [AWS STS], IAM profiles)
 
-Task Statement 6 .2: Apply automation for security controls and data protection.
+### Task Statement 6 .2: Apply automation for security controls and data protection.
 
 ```
 Knowledge of:
@@ -571,7 +571,7 @@ Skills in:
 - Encrypting data in transit and data at rest (for example, AWS KMS, AWS
   CloudHSM, ACM)
 
-Task Statement 6 .3: Implement security monitoring and auditing solutions.
+### Task Statement 6 .3: Implement security monitoring and auditing solutions.
 
 ```
 Knowledge of:
