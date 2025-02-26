@@ -1,13 +1,11 @@
 ## AWS Certified DevOps Engineer -Professional (DOP-C02) Exam Guide
 
-
 - Domain 1: SDLC Automation (22% of scored content)
 - Domain 2: Configuration Management and IaC (17% of scored content)
 - Domain 3: Resilient Cloud Solutions (15% of scored content)
 - Domain 4: Monitoring and Logging (15% of scored content)
 - Domain 5: Incident and Event Response (14% of scored content)
 - Domain 6: Security and Compliance (17% of scored content)
-
 
 # Introduction
 
@@ -46,7 +44,6 @@ The target candidate should have the following experience:
 **Recommended AWS knowledge and experience**
 
 The target candidate should have experience in securing AWS infrastructure.
-
 
 **Job tasks that are out of scope for the target candidate**
 
@@ -88,7 +85,6 @@ information about performance on these unscored questions to evaluate these
 questions for future use as scored questions. These unscored questions are not
 identified on the exam.
 
-
 **Exam results**
 
 The AWS Certified DevOps Engineer -Professional (DOP-C02) exam has a pass or fail
@@ -126,7 +122,6 @@ The exam has the following content domains and weightings:
 - Domain 5: Incident and Event Response (14% of scored content)
 - Domain 6: Security and Compliance (17% of scored content)
 
-
 **Domain 1: SDLC Automation**
 
 Task Statement 1.1: Implement CI/CD pipelines.
@@ -134,12 +129,14 @@ Task Statement 1.1: Implement CI/CD pipelines.
 ```
 Knowledge of:
 ```
+
 - Software development lifecycle (SDLC) concepts, phases, and models
 - Pipeline deployment patterns for single-and multi-account environments
 
 ```
 Skills in:
 ```
+
 - Configuring code, image, and artifact repositories
 - Using version control to integrate pipelines with application environments
 - Setting up build processes (for example, AWS CodeBuild)
@@ -153,6 +150,7 @@ Task Statement 1.2: Integrate automated testing into CI/CD pipelines.
 ```
 Knowledge of:
 ```
+
 - Different types of tests (for example, unit tests, integration tests,
   acceptance tests, user interface tests, security scans)
 - Reasonable use of different types of tests at different stages of the CI/CD
@@ -161,6 +159,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Running builds or tests when generating pull requests or code merges (for
   example, CodeBuild)
 - Running load/stress tests, performance benchmarking, and application
@@ -169,12 +168,12 @@ Skills in:
 - Automating unit tests and code coverage
 - Invoking AWS services in a pipeline for testing
 
-
 Task Statement 1.3: Build and manage artifacts.
 
 ```
 Knowledge of:
 ```
+
 - Artifact use cases and secure management
 - Methods to create and generate artifacts
 - Artifact lifecycle considerations
@@ -182,6 +181,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Creating and configuring artifact repositories (for example, AWS
   CodeArtifact, Amazon S3, Amazon Elastic Container Registry [Amazon ECR])
 - Configuring build tools for generating artifacts (for example, CodeBuild,
@@ -195,6 +195,7 @@ serverless environments.
 ```
 Knowledge of:
 ```
+
 - Deployment methodologies for various platforms (for example, Amazon
   EC2, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic
   Kubernetes Service [Amazon EKS], Lambda)
@@ -208,12 +209,12 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Configuring security permissions to allow access to artifact repositories (for
   example, AWS Identity and Access Management [IAM], CodeArtifact)
 - Configuring deployment agents (for example, CodeDeploy agent)
 - Troubleshooting deployment issues
 - Using different deployment methods (for example, blue/green, canary)
-
 
 **Domain 2 : Configuration Management and IaC**
 
@@ -223,6 +224,7 @@ provision and manage systems throughout their lifecycle.
 ```
 Knowledge of:
 ```
+
 - Infrastructure as code (IaC) options and tools for AWS
 - Change management processes for IaC-based platforms
 - Configuration management services and strategies
@@ -230,6 +232,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Composing and deploying IaC templates (for example, AWS Serverless
   Application Model [AWS SAM], AWS CloudFormation, AWS Cloud
   Development Kit [AWS CDK])
@@ -247,11 +250,13 @@ in a multi-account or multi-Region environment.
 ```
 Knowledge of:
 ```
+
 - AWS account structures, best practices, and related AWS services
 
 ```
 Skills in:
 ```
+
 - Standardizing and automating account provisioning and configuration
 - Creating, consolidating, and centrally managing accounts (for example,
   AWS Organizations, AWS Control Tower)
@@ -261,13 +266,13 @@ Skills in:
   (AWS Config, AWS Control Tower, AWS Security Hub, Amazon Detective,
   Amazon GuardDuty, AWS Service Catalog, SCPs)
 
-
 Task Statement 2.3: Design and build automated solutions for complex tasks and
 large-scale environments.
 
 ```
 Knowledge of:
 ```
+
 - AWS services and solutions to automate tasks and processes
 - Methods and strategies to interact with the AWS software-defined
   infrastructure
@@ -275,6 +280,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Automating system inventory, configuration, and patch management (for
   example, Systems Manager, AWS Config)
 - Developing Lambda function automations for complex scenarios (for
@@ -291,6 +297,7 @@ business requirements.
 ```
 Knowledge of:
 ```
+
 - Multi-AZ and multi-Region deployments (for example, compute layer, data
   layer)
 - SLAs
@@ -306,13 +313,13 @@ Knowledge of:
 - Configuring applications and related services to support multiple
   Availability Zones and Regions while minimizing downtime
 
-
 Task Statement 3.2: Implement solutions that are scalable to meet business
 requirements.
 
 ```
 Knowledge of:
 ```
+
 - Appropriate metrics for scaling services
 - Loosely coupled and distributed architectures
 - Serverless architectures
@@ -321,6 +328,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Identifying and remediating scaling issues
 - Identifying and implementing appropriate auto scaling, load balancing, and
   caching solutions
@@ -336,6 +344,7 @@ requirements.
 ```
 Knowledge of:
 ```
+
 - Disaster recovery concepts (for example, RTO, RPO)
 - Backup and recovery strategies (for example, pilot light, warm standby)
 - Recovery procedures
@@ -343,13 +352,13 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Testing failover of Multi-AZ and multi-Region workloads (for example,
   Amazon RDS, Amazon Aurora, Route 53, CloudFront)
 - Identifying and implementing appropriate cross-Region backup and
   recovery strategies (for example, AWS Backup, Amazon S3, Systems
   Manager)
 - Configuring a load balancer to recover from backend failure
-
 
 **Domain 4: Monitoring and Logging**
 
@@ -359,6 +368,7 @@ metrics.
 ```
 Knowledge of:
 ```
+
 - How to monitor applications and infrastructure
 - Amazon CloudWatch metrics (for example, namespaces, metrics, dimensions,
   and resolution)
@@ -371,6 +381,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Securely storing and managing logs
 - Creating CloudWatch metrics from log events by using metric filters
 - Creating CloudWatch metric streams (for example, Amazon S3 or Amazon
@@ -384,12 +395,12 @@ Skills in:
   Insights
 - Configuring encryption of log data (for example, AWS KMS)
 
-
 Task Statement 4.2: Audit, monitor, and analyze logs and metrics to detect issues.
 
 ```
 Knowledge of:
 ```
+
 - Anomaly detection alarms (for example, CloudWatch anomaly detection)
 - Common CloudWatch metrics and logs (for example, CPU utilization with
   Amazon EC2, queue length with Amazon RDS, 5xx errors with an
@@ -401,6 +412,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Building CloudWatch dashboards and Amazon QuickSight visualizations
 - Associating CloudWatch alarms with CloudWatch metrics (standard and
   custom)
@@ -416,6 +428,7 @@ environments.
 ```
 Knowledge of:
 ```
+
 - Event-driven, asynchronous design patterns (for example, S3 Event
   Notifications or Amazon EventBridge events to Amazon Simple Notification
   Service [Amazon SNS] or Lambda)
@@ -427,10 +440,10 @@ Knowledge of:
 - Health check capabilities in AWS services (for example, ALB target groups,
   Route 53)
 
-
 ```
 Skills in:
 ```
+
 - Configuring solutions for auto scaling (for example, DynamoDB, EC2 Auto
   Scaling groups, RDS storage auto scaling, ECS capacity provider)
 - Creating CloudWatch custom metrics and metric filters, alarms, and
@@ -453,6 +466,7 @@ response to events.
 ```
 Knowledge of:
 ```
+
 - AWS services that generate, capture, and process events (for example, AWS
   Health, EventBridge, CloudTrail)
 - Event-driven architectures (for example, fan out, event streaming, queuing)
@@ -460,17 +474,18 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Integrating AWS event sources (for example, AWS Health, EventBridge,
   CloudTrail)
 - Building event processing workflows (for example, Amazon Simple Queue
   Service [Amazon SQS], Kinesis, Amazon SNS, Lambda, Step Functions)
-
 
 Task Statement 5.2: Implement configuration changes in response to events.
 
 ```
 Knowledge of:
 ```
+
 - Fleet management services (for example, Systems Manager, AWS Auto
   Scaling)
 - Configuration management services (for example, AWS Config)
@@ -484,6 +499,7 @@ Task Statement 5.3: Troubleshoot system and application failures.
 ```
 Knowledge of:
 ```
+
 - AWS metrics and logging services (for example, CloudWatch, X-Ray)
 - AWS service health services (for example, AWS Health, CloudWatch,
   Systems Manager OpsCenter)
@@ -492,6 +508,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Analyzing failed deployments (for example, AWS CodePipeline, CodeBuild,
   CodeDeploy, CloudFormation, CloudWatch synthetic monitoring)
 - Analyzing incidents regarding failed processes (for example, auto scaling,
@@ -505,6 +522,7 @@ scale.
 ```
 Knowledge of:
 ```
+
 - Appropriate usage of different IAM entities for human and machine access
   (for example, users, groups, roles, identity providers, identity-based policies,
   resource-based policies, session policies)
@@ -513,10 +531,10 @@ Knowledge of:
 - Permission management delegation by using IAM permissions boundaries
 - Organizational SCPs
 
-
 ```
 Skills in:
 ```
+
 - Designing policies to enforce least privilege access
 - Implementing role-based and attribute-based access control patterns
 - Automating credential rotation for machine identities (for example, Secrets
@@ -530,6 +548,7 @@ Task Statement 6 .2: Apply automation for security controls and data protection.
 ```
 Knowledge of:
 ```
+
 - Network security components (for example, security groups, network ACLs,
   routing, AWS Network Firewall, AWS WAF, AWS Shield)
 - Certificates and public key infrastructure (PKI)
@@ -539,6 +558,7 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Automating the application of security controls in multi-account and
   multi-Region environments (for example, Security Hub, Organizations, AWS
   Control Tower, Systems Manager)
@@ -551,12 +571,12 @@ Skills in:
 - Encrypting data in transit and data at rest (for example, AWS KMS, AWS
   CloudHSM, ACM)
 
-
 Task Statement 6 .3: Implement security monitoring and auditing solutions.
 
 ```
 Knowledge of:
 ```
+
 - Security auditing services and features (for example, CloudTrail, AWS
   Config, VPC Flow Logs, CloudFormation drift detection)
 - AWS services for identifying security vulnerabilities and events (for
@@ -568,12 +588,12 @@ Knowledge of:
 ```
 Skills in:
 ```
+
 - Implementing robust security auditing
 - Configuring alerting based on unexpected or anomalous security events
 - Configuring service and application logging (for example, CloudTrail,
   CloudWatch Logs)
 - Analyzing logs, metrics, and security findings
-
 
 # Appendix
 
@@ -612,7 +632,6 @@ Analytics:
 - Amazon OpenSearch Service
 - Amazon QuickSight
 
-
 Application Integration:
 
 - Amazon AppFlow
@@ -649,7 +668,6 @@ Database:
 - Amazon MemoryDB for Redis
 - Amazon RDS
 - Amazon Redshift
-
 
 Developer Tools:
 
@@ -688,7 +706,6 @@ Management and Governance:
 - AWS Systems Manager
 - AWS Trusted Advisor
 
-
 Networking and Content Delivery:
 
 - Amazon API Gateway
@@ -721,7 +738,6 @@ Security, Identity, and Compliance:
 - AWS Security Token Service (AWS STS)
 - AWS Shield
 - AWS WAF
-
 
 Serverless:
 
